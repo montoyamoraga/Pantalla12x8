@@ -1,0 +1,17 @@
+################################
+# Classes
+################################
+
+Pantalla12x8			KEYWORD1
+
+################################
+# Methods and functions
+################################
+
+placeholderMethod		KEYWORD2
+
+################################
+# Constants
+################################
+
+placeholderConstant		KEYWORD3
