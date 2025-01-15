@@ -12,9 +12,10 @@ class Pantalla12x8 {
     // destructor
     ~Pantalla12x8();
 
+    ArduinoLEDMatrix matrix;
+
 
     // numbers, centered
-
     const uint32_t cero[8][12] = {
       { 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0 },
       { 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 },
@@ -25,9 +26,6 @@ class Pantalla12x8 {
       { 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 },
       { 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0 }
     };
-    
-
-
 
     const uint32_t uno[8][12] = {
       { 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 },
