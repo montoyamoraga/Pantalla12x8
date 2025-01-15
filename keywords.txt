@@ -14,4 +14,13 @@ placeholderMethod		KEYWORD2
 # Constants
 ################################
 
-placeholderConstant		KEYWORD3
+cero                	KEYWORD3
+uno	                	KEYWORD3
+dos	                	KEYWORD3
+tres                	KEYWORD3
+cuatro                	KEYWORD3
+cinco                	KEYWORD3
+seis                	KEYWORD3
+siete                	KEYWORD3
+ocho                	KEYWORD3
+nueve                	KEYWORD3
