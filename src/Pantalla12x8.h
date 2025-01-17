@@ -14,6 +14,9 @@ class Pantalla12x8 {
 
     ArduinoLEDMatrix matrix;
 
+    void iniciar();
+    void mostrar();
+
 
     // numbers, centered
     const uint32_t cero[8][12] = {
