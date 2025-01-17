@@ -4,7 +4,7 @@
 Pantalla12x8 pantallita;
 
 void setup() {
-
+  Serial.begin(9600);
 }
 
 void loop() {
