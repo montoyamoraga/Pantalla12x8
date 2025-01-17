@@ -7,13 +7,13 @@ Pantalla12x8::Pantalla12x8() {
 // destructor
 Pantalla12x8::~Pantalla12x8() {}
 
-Pantalla12x8::iniciar() {
+void Pantalla12x8::iniciar() {
   Pantalla12x8::matrix.begin();
 }
 
 
 
-Pantalla12x::mostrar() {
+void Pantalla12x::mostrar() {
   Pantalla12x8::matrix.loadFrame(Pantalla12x8::cero);
   delay(500);
   Pantalla12x8::matrix.loadFrame(Pantalla12x8::uno);
