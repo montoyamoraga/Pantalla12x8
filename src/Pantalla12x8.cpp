@@ -13,7 +13,7 @@ void Pantalla12x8::iniciar() {
 
 
 
-void Pantalla12x::mostrar() {
+void Pantalla12x8::mostrar() {
   Pantalla12x8::matrix.loadFrame(Pantalla12x8::cero);
   delay(500);
   Pantalla12x8::matrix.loadFrame(Pantalla12x8::uno);
