@@ -124,24 +124,24 @@ const uint32_t Pantalla12x8::nueve[8][12] = {
 
 
 void Pantalla12x8::mostrar() {
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::cero);
+  Pantalla12x8::matrix.loadFrame((uint32_t*)Pantalla12x8::cero);
   delay(500);
-  Pantalla12x8::matrix.loadFramePantalla12x8::uno);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::uno);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::dos);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::dos);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::tres);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::tres);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::cuatro);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::cuatro);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::cinco);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::cinco);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::seis);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::seis);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::siete);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::siete);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::ocho);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::ocho);
   delay(500);
-  Pantalla12x8::matrix.loadFrame(Pantalla12x8::nueve);
+  Pantalla12x8::matrix.loadFrame((uint32_t*) Pantalla12x8::nueve);
   delay(500);
 }
