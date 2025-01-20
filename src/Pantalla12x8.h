@@ -5,6 +5,10 @@
 #include "Arduino_LED_Matrix.h"
 
 class Pantalla12x8 {
+
+  protected:
+    ArduinoLEDMatrix *miMatrix = nullptr;
+
   public:
     // constructor
     Pantalla12x8();
@@ -12,34 +16,20 @@ class Pantalla12x8 {
     // destructor
     ~Pantalla12x8();
 
-    ArduinoLEDMatrix matrix;
-
     void iniciar();
     void mostrar();
 
-
     // numbers, centered
-    static const uint32_t cero[][12];
-    static const uint32_t uno[][12];
-    static const uint32_t dos[][12];
-    static const uint32_t tres[][12];
-    static const uint32_t cuatro[][12];
-    static const uint32_t cinco[][12];
-    static const uint32_t seis[][12];
-    static const uint32_t siete[][12];
-    static const uint32_t ocho[][12];
-    static const uint32_t nueve[][12];
-    // static const uint32_t cero[8][12];
-    // static const uint32_t uno[8][12];
-    // static const uint32_t dos[8][12];
-    // static const uint32_t tres[8][12];
-    // static const uint32_t cuatro[8][12];
-    // static const uint32_t cinco[8][12];
-    // static const uint32_t seis[8][12];
-    // static const uint32_t siete[8][12];
-    // static const uint32_t ocho[8][12];
-    // static const uint32_t nueve[8][12];
-
+    static const uint32_t cero[3];
+    static const uint32_t uno[3];
+    static const uint32_t dos[3];
+    static const uint32_t tres[3];
+    static const uint32_t cuatro[3];
+    static const uint32_t cinco[3];
+    static const uint32_t seis[3];
+    static const uint32_t siete[3];
+    static const uint32_t ocho[3];
+    static const uint32_t nueve[3];
 };
 
 #endif
