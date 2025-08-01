@@ -1033,8 +1033,6 @@ INPUT_FILE_ENCODING    =
 
 FILE_PATTERNS          = *.c \
                          *.cc \
-                         *.cxx \
-                         *.cxxm \
                          *.cpp \
                          *.cppm \
                          *.ccm \
@@ -1057,10 +1055,6 @@ FILE_PATTERNS          = *.c \
                          *.l \
                          *.cs \
                          *.d \
-                         *.php \
-                         *.php4 \
-                         *.php5 \
-                         *.phtml \
                          *.inc \
                          *.m \
                          *.markdown \
@@ -1069,17 +1063,6 @@ FILE_PATTERNS          = *.c \
                          *.dox \
                          *.py \
                          *.pyw \
-                         *.f90 \
-                         *.f95 \
-                         *.f03 \
-                         *.f08 \
-                         *.f18 \
-                         *.f \
-                         *.for \
-                         *.vhd \
-                         *.vhdl \
-                         *.ucf \
-                         *.qsf \
                          *.ice
 
 # The RECURSIVE tag can be used to specify whether or not subdirectories should
@@ -1348,7 +1331,7 @@ GENERATE_HTML          = YES
 # The default directory is: html.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_OUTPUT            = html
+HTML_OUTPUT            = ./
 
 # The HTML_FILE_EXTENSION tag can be used to specify the file extension for each
 # generated HTML page (for example: .htm, .php, .asp).
@@ -2021,7 +2004,7 @@ EXTRA_SEARCH_MAPPINGS  =
 # If the GENERATE_LATEX tag is set to YES, Doxygen will generate LaTeX output.
 # The default value is: YES.
 
-GENERATE_LATEX         = YES
+GENERATE_LATEX         = NO
 
 # The LATEX_OUTPUT tag is used to specify where the LaTeX docs will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
