@@ -1,5 +1,4 @@
 #include "Pantalla12x8.h"
-#include "Arduino_LED_Matrix.h"
 
 // constructor
 Pantalla12x8::Pantalla12x8() {
