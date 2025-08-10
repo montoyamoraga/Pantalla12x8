@@ -1,9 +1,10 @@
 #include "Pantalla12x8.h"
 
-// constructor
+/// constructor
+/// @param none
+/// @return none
 Pantalla12x8::Pantalla12x8() {
   miMatrix = new ArduinoLEDMatrix();
-
 
 // numbers, centered
 
@@ -108,7 +109,9 @@ Pantalla12x8::Pantalla12x8() {
 
 }
 
-// destructor
+/// destructor
+/// @param none
+/// @return none
 Pantalla12x8::~Pantalla12x8() {
   if (miMatrix != nullptr) {
     delete miMatrix;
